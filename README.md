@@ -60,11 +60,20 @@ flask_openweather/
         └── style.css
 ```
 
-## Setup Instructions
+##  Setup Instructions
 
--git clone [[https://github.com/nerd-10/openweather-flask-app]
--cd flask_openweather
--pip install -r requirements.txt
--API_KEY=your_openweather_api_key_here
--python fserver.py
+```bash
+# 1) Clone the repository
+git clone https://github.com/nerd-10/openweather-flask-app.git
+cd openweather-flask-app
+
+# 2) Install dependencies
+pip install -r requirements.txt
+
+# 3) Create a .env file in the project root and add your API key
+# API_KEY=your_openweather_api_key_here
+
+# 4) Run the app
+python fserver.py
+
 
